@@ -8,11 +8,47 @@
 import UIKit
 
 class MedallasUsuario1ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var nombreUsuario: UILabel!
+    
+    @IBOutlet weak var medallasCafe: UILabel!
+    
+    @IBOutlet weak var medallasAzul: UILabel!
+    
+    @IBOutlet weak var medallasAmarillo: UILabel!
+    
+    @IBOutlet weak var medallasMorado: UILabel!
+    
+    @IBOutlet weak var textoMedallaCafe: UILabel!
+    
+
+    @IBOutlet weak var textoMedallaAzul: UILabel!
+    
+    
+    @IBOutlet weak var textoMedallaAmarilla: UILabel!
+    
+    
+    @IBOutlet weak var textoMedallaMorada: UILabel!
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        nombreUsuario.text = "Alejandro Guzmán Sánchez"
 
-        // Do any additional setup after loading the view.
+        medallasCafe.text = "20"
+        medallasAzul.text = "55"
+        medallasAmarillo.text = "9"
+        medallasMorado.text = "18"
+        
+        textoMedallaCafe.text = "Entregaste 12kg de Cartón"
+        textoMedallaAzul.text = "Gasto de agua reducido un 38%"
+        textoMedallaAmarilla.text = "7 Carpools este mes"
+        textoMedallaMorada.text = "15 Carpools este mes"
+        
     }
     
 
